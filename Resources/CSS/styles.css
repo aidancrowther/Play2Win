@@ -1,0 +1,38 @@
+body{
+	background-image: url('../Images/bkg.jpg');
+	margin: 0% 0% 0% 0%;
+}
+
+#menu{
+    height: 95vh;
+}
+
+#content{
+    height: 95vh;
+}
+
+div #menu{
+    background-color: rgba(222, 222, 222, 0.4);
+}
+
+div #content{
+    background-color: rgba(122, 122, 122, 0.4);
+}
+
+div #nav{
+    height:5vh;
+    background-color: rgba(56, 56, 56, 1.0);
+}
+
+div .header{
+    height: 4vh;
+    background-color: rgba(82, 82, 82, 0.4);
+    text-align: center;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+div .body{
+    margin: 1vh 0vh 1vh 0vh;
+    height: max-content;
+}
