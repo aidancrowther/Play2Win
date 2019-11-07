@@ -7,7 +7,8 @@ let win;
 //Create main display window
 function createWindow(){
 
-	win = new BrowserWindow({width:1366, height:768});
+    let win = new BrowserWindow({width:1366, height:768});
+    win.setAutoHideMenuBar(true);
 
 	//Load main.html
 	win.loadURL(url.format({
@@ -21,7 +22,7 @@ function createWindow(){
 	win.on('closed', () => {
 		win = null;
 		app.quit();
-	});
+    });
 
 }
 
