@@ -4,11 +4,11 @@ body{
 }
 
 #menu{
-    height: 95vh;
+    height: 96vh;
 }
 
 #content{
-    height: 95vh;
+    height: 96vh;
 }
 
 div #menu{
@@ -20,7 +20,7 @@ div #content{
 }
 
 div #nav{
-    height:5vh;
+    height:40px;
     background-color: rgba(56, 56, 56, 1.0);
 }
 
@@ -35,4 +35,8 @@ div .header{
 div .body{
     margin: 1vh 0vh 1vh 0vh;
     height: max-content;
+}
+
+.btn{
+    margin: 5px 0% 0% 0%;
 }

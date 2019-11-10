@@ -7,7 +7,13 @@ let win;
 //Create main display window
 function createWindow(){
 
-    let win = new BrowserWindow({width:1366, height:768});
+    let win = new BrowserWindow({
+		webPreferences: {
+            nodeIntegration: true
+        },
+		width:1366,
+		height:768
+	});
     win.setAutoHideMenuBar(true);
 
 	//Load main.html
