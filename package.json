@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/aidancrowther/Play2Win#readme",
   "dependencies": {
-    "electron": "^7.1.0",
+    "electron": "^13.6.6",
     "path": "^0.12.7",
     "url": "^0.11.0"
   }
